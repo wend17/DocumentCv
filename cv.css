@@ -121,3 +121,18 @@ padding:40px;
     color:white;
     font-weight: 300;
 }
+.contactInfo.language .percent{
+position: relative;
+width: 100%;
+height:6px;
+background:rgb(20, 4, 114);
+display:block;
+margin-top: 5px;
+}
+.contactInfo.language .percent div{
+position:absolute;
+top:0;
+left:0;
+height:100%;
+background:greenyellow;
+}
