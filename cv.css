@@ -1,214 +1,210 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
-}
-body
-{
-background:lightblue;
-display:flex;
-justify-content:center;
-align-items: center;
-min-height:100vh;
-}
-.container
-{
-position:relative;
-width: 100%;
-max-width: 1000px;
-min-height: 1000px;
-background:white;
-margin:50px;
-display:grid;
-grid-template-columns: 1fr 2fr;
-box-shadow: 0 35px 55px rgba(0,0,0,0.1);
-}
-.container .left_Side
-{
-position: relative;
-background: rgb(0, 102, 255);
-padding:40px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+
 }
 
-.profileText
-{
- position: relative;
- display:flex;   
- flex-direction: column;
- align-items: center;
- padding-bottom:20px;
- border-bottom:1px solid rgba(197, 195, 195, 0.89);
+body {
+    background: #fffff1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
-.profileText .imgBx
-{
-position: relative;
-width:200px;
-height: 200px;
-border-radius: 50%;
-overflow: hidden;
-}
-.profileText .imgBx img
-{
-    position: absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    object-fit: cover;
-}
-.profileText h2
-{
-color:white;
-font-size:1.4em;
-margin-top:20px;
-text-transform: uppercase;
-text-align: center;
-font-weight: 600;
-line-height: 1.4em;
-}
-.profileText h2 span
-{
-font-size:0.8em;
-font-weight: 300;
-}
-.container .rigth_Side
-{
-position: relative;
-background: white;
-padding:40px;
-}
-.contactInfo{
-    padding-top: 40px;
-}
-.title{
- color:white;
- text-transform: uppercase;
- font-weight:600;
- letter-spacing:1px;
- margin-bottom: 20px;   
-}
-.contactInfo ul li{
-    position: relative;
-    list-style: none;
-    margin:10px 0;
-    cursor: pointer;
-}
-.contactInfo ul li .icon{
-    display: inline-block;
-    width:30px;
-    font-size:20px;
-    color: aqua;
-}
-.contactInfo ul li span{
-    color:white;
-    font-weight:300;
-}
-.contactInfo.Education li
-{
-    margin-bottom:15px;
-}
-.contactInfo.Education h5{
-    color: aqua;
-    font-weight: 500;
-}
-.contactInfo.Education h4:nth-child(2){
-    color:white;
-    font-weight:500;
-}
-.contactInfo.Education h4{
-    color:white;
-    font-weight: 300;
-}
-.contactInfo.language .percent{
-position: relative;
-width: 100%;
-height:6px;
-background:rgb(20, 4, 114);
-display:block;
-margin-top: 5px;
-}
-.contactInfo.language .percent div{
-position:absolute;
-top:0;
-left:0;
-height:100%;
-background:greenyellow;
-}
-.about{
-    margin-bottom:50px;
-}
-.about:last-child{
-    margin-bottom: 0;
-}
-.title2{
-    color:#002973;
-    text-transform: uppercase;
-    letter-spacing:1px;
-    margin-bottom: 10px;
-}
-p{
-    color:#002973;
-}
-.about .box{
-display: flex;
-flex-direction: row;
-margin:20px 0;
-}
-.about .box .year_company{
-    min-width:150px;
-}
-.about .box .year_company h5{
-    text-transform:uppercase;
-    color:#002973;
-    font-weight: 600;
-}
-.about .box .text h4{
-   text-transform: uppercase;
-   color:#002973;
-    font-size: 13px;
-}
-.skills .box{
+
+.container {
     position: relative;
     width: 100%;
-    display:grid;
-    grid-template-columns: 150px 1fr;
-    align-items:center;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
-.skills .box h4{
-text-transform: uppercase;
-color:#155db1;
-font-size: 12px;
+
+.container .left_Side {
+    position: relative;
+    background: #264566;
+    padding: 40px;
 }
-.skills .box .percent{
-   position: relative; 
-   width: 100%;
-   height:18px;
-   background:lavender;
+
+.container .rigth_Side {
+    position: relative;
+    background: white;
+    padding: 60px;
 }
-.skills .box .percent div{
+
+.profileText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(197, 195, 195, 0.89);
+}
+
+.profileText .imgBx {
+    position: relative;
+    width: 250px;
+    height: 260px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileText .imgBx img {
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
     height: 100%;
-    background:#155db1;
+    object-fit: cover;
 }
-.interest ul{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+
+.profileText h2 {
+    color: white;
+    font-size: 1.4em;
+    margin-top: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
 }
-.interest ul li{
+
+.title {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+.contactInfo ul li {
+    position: relative;
     list-style: none;
-    color:#002973;
-    font-weight:500;
-    margin:10px 0;
+    margin: 10px;
+    cursor: pointer;
 }
-.interest ul li .fa{
-color:aqua;
-font-size: 18px;
-width:20px;
+
+.contactInfo ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 25px;
+    color: #f8e44b;
+    margin: 2px;
 }
-.text > p{
-    font-size:14px;
+
+.contactInfo ul li span {
+    color: white;
+    font-weight: 300;
+    font-size: 17PX;
+}
+
+.contactInfo ul li span a {
+    color: white;
+    font-weight: 300;
+    font-size: 17PX;
+}
+
+.contactInfo.Education ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 28px;
+    color: #f8e44b;
+    margin: 2px;
+}
+
+.contactInfo.Education li {
+    margin-bottom: 35px;
+}
+
+.contactInfo.Education h5 {
+    color: #f8e44b;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.contactInfo.Education h4 {
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.contactInfo.language h4 {
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.contactInfo.language h5 {
+    color: #f8e44b;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.title2 {
+    color: #264566;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    font-size: 21px;
+}
+
+.tecnologia_contenedor {
+    margin-bottom: 50px;
+}
+
+.demo {
+    margin-bottom: 25px;
+}
+
+.interest ul li .fa {
+    color: #264566;
+    font-size: 18px;
+    width: 20px;
+}
+
+.interest ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+p {
+    color: #264566;
+}
+
+.about {
+    margin-bottom: 50px;
+}
+
+.tecnologia {
+    color: #264566;
+    font-size: 16px;
+}
+
+.lenguaje {
+    margin-left: 30px;
+
+}
+
+.leng {
+    margin-top: 10px;
+    color: #264566;
+    margin-bottom: 10px;
+}
+
+.contenedor {
+    display: inline-block;
+}
+
+.parrafo {
+    margin-top: 10px;
 }
